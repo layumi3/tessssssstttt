@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Operasional</string>
+<string name="hello_world">Heloo</string>
+<string name="txt_btn_login"> Login </string>
+<string name="note_sign">"Don't have Account, contact Administrator"</string>
+<string name="title_app">"Polban mobile rent tracking"</string>
+<string name="thankful">"Hope you enjoy your trip"</string>
+<string name="logout_app">"Thank you for using our Tracking App's!"</string>
+
+<!-- Strings related to login -->
+<string name="prompt_username"> Username </string>
+<string name="prompt_password">Password </string>
+<string name="action_sign_in">Sign in, please </string>
+<string name="action_sign_in_short">Sign in</string>
+<string name="error_invalid_email">This email address is invalid</string>
+<string name="error_invalid_password">This password is too short</string>
+<string name="error_incorrect_password">This password is incorrect</string>
+<string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+<!-- Strings related to form input -->
+<string name="form_title">"Form Data Trip"</string>
+<string name="prompt_car">Merk Mobil</string>
+<string name="prompt_nopol">No. Polisi</string>
+<string name="prompt_depart">Rute Awal</string>
+<string name="prompt_arrive">Rute Akhir</string>
+<string name="prompt_requester">Peminjam</string>
+<string name="action_request">Start</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

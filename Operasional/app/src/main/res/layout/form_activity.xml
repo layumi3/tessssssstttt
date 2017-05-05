@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="#B6B6B6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/form_title"
+            android:id="@+id/form_title"
+            android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+            android:drawablePadding="5dp"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:drawableLeft="@drawable/ic_directions_car_black_18dp"
+            android:drawablePadding="5dp"
+            android:id="@+id/car"
+            android:hint="@string/prompt_car"
+            android:textSize="20sp"
+            android:layout_below="@id/form_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:drawableLeft="@drawable/ic_crop_7_5_black_18dp"
+            android:drawablePadding="5dp"
+            android:hint="@string/prompt_nopol"
+            android:id="@+id/nopol"
+            android:layout_below="@id/car"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:drawableLeft="@drawable/ic_call_missed_outgoing_black_18dp"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_depart"
+            android:id="@+id/asal"
+            android:layout_below="@id/nopol"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:drawableLeft="@drawable/ic_call_missed_black_18dp"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_arrive"
+            android:inputType="text"
+            android:id="@+id/tujuan"
+            android:layout_below="@id/asal"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:drawableLeft="@drawable/ic_person_black_18dp"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_requester"
+            android:inputType="text"
+            android:id="@+id/peminjam"
+            android:layout_below="@id/tujuan"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/action_form"
+            android:text="@string/action_request"
+            android:layout_below="@id/peminjam"
+            android:textSize="16sp"
+            android:onClick="insertData"
+            android:layout_alignParentRight="true"
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/skip_form"
+            android:text="Skip"
+            android:textSize="16sp"
+            android:onClick="skipForm"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/peminjam"
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</ScrollView>

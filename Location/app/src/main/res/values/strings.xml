@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Location</string>
+    <string name="main_menu_exit">Exit</string>
+
+    <string name="main_endpoint_hint">Endpoint URL</string>
+
+    <string name="main_enable_desc">Enable Tracking</string>
+</resources>

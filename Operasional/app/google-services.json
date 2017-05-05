@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "365284490192",
+    "project_id": "operasional-3d335"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365284490192:android:ed8771a1ea8fb77d",
+        "android_client_info": {
+          "package_name": "com.bdg.telkom.operasional"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8SoYTk4WwuJ4KCcqr6dr757EecJ6tNOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
